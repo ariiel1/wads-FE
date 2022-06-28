@@ -142,7 +142,7 @@ const nav = useNavigate();
             color="text.secondary"
             component="p">
 
-          Contact: +62 1212 1212
+          Contact: +62 1212 1221
         </Typography>
 
         <Typography align='center'>
