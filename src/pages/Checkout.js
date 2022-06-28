@@ -18,6 +18,7 @@ import Review from './Review';
 import CoffeeIcon from '@mui/icons-material/Coffee';
 
 
+//Template taken from Material UI - Checkout
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">

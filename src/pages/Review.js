@@ -5,6 +5,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Grid from '@mui/material/Grid';
 
+
+//Template taken from Material UI - Review
 const products = [
   {
     name: 'Example Coffee',

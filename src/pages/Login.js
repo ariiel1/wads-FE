@@ -13,6 +13,8 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+
+//Template taken from Material UI - Sign In
 function Copyright() {
     return (
       <Typography variant="body2" color="text.secondary" align="center">

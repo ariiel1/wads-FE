@@ -20,7 +20,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 
 
-
+//Template taken from Material UI - Album
 function Copyright() {
     return (
       <Typography variant="body2" color="text.secondary" align="center">

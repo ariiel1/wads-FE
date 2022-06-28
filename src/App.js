@@ -6,7 +6,7 @@ import { Login } from './pages/Login'
 import { NotFound } from './pages/NotFound'
 import { Register } from './pages/Register'
 
-
+//Routing
 export const App = () => {
   return (
     <BrowserRouter>
