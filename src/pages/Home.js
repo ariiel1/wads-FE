@@ -83,7 +83,7 @@ const nav = useNavigate();
               Today's Promo: Free Stuff
             </Typography>
             <Stack
-              sx={{ pt: 4 }}
+              sx={{ pt: 1 }}
               direction="row"
               spacing={2}
               justifyContent="center"
@@ -91,7 +91,7 @@ const nav = useNavigate();
             </Stack>
           </Container>
         </Box>
-        <Container sx={{ py: 8 }} maxWidth="md">
+        <Container maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4}>
             {cards.map((card) => (
@@ -103,9 +103,11 @@ const nav = useNavigate();
                     component="img"
                     sx={{
                       // 16:9
-                      pt: '56.25%',
+                      pt: '5%',
+                      pl: '5%',
+                      pr: '5%'
                     }}
-                    image="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1200px-A_small_cup_of_coffee.JPG"
+                    image="https://www.worldatlas.com/r/w1200/upload/12/f8/83/coffee-cup.jpg"
                     alt="img"
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
